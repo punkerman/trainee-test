@@ -14,7 +14,7 @@ public class VeryBasicStack  {
 
     /**
      * Push an item on the top of the BasicStack.
-     * @param newItem An item to put on the stack.
+     * @param item An item to put on the stack.
      * @return Itself so that you can chain pushes.
      */
     public VeryBasicStack push(Object newItem){
@@ -50,14 +50,14 @@ public class VeryBasicStack  {
      * @param item item to get of the stack.
      * @return Object item of the stack.
      */
-    public Object access(Object item){
+    public Object access(Object oneItem){
         while(stackPointer > 0){
             Object tmpItem = pop();
-            if(item.equals(tmpItem)){
+            if(oneItem.equals(tmpItem)){
                 return tmpItem;
             }
         }
-        throw new IllegalArgumentException("Could not find the item on the stack:" + item);
+        throw new IllegalArgumentException("Could not find the item on the stack:" + oneItem);
 
     }
 

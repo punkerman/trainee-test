@@ -1,20 +1,37 @@
 # One Track - Tekniskt test
 
-Hej och välkommen till den tekniska testdelen av antagningsprocessen för One Track, One Agencys traineeprogram.
+Hej och välkommen till den tekniska testdelen av antagningsprocessen för One Track, One Agencys traineeprogram. Läs
+igeom hela instruktionen innan du börjar.
+
+## Allmänna instruktioner
+
+I samtliga fall ska uppgifterna lösas i en egen [Fork av original-repot](https://help.github.com/articles/fork-a-repo/).
+
+Gör minst en commit per löst deluppgift, alltså 3+ stycken för Algoritm-delen och 2+ för Kodgranskningen.
+
+När du är klar, skapar du en [Pull Request](https://help.github.com/articles/creating-a-pull-request/) till oss i vårt repo. 
+Det finns en Pull Request Template som ska användas.
+
 
 Testet består av 3 olika delar:
 
 ## Del 1 - Algoritmer
 
-För den första delen kommer vi att använda oss av Hacker Rank (https://www.hackerrank.com). Skapa ett konto där och lös följande uppgifter.
+För den första delen kommer vi att använda oss av Hacker Rank (https://www.hackerrank.com). 
 
-1. Anagram - https://www.hackerrank.com/challenges/making-anagrams/problem
+__Skapa ett konto där och lös följande uppgifter.__
+
+1. Making Anagram - https://www.hackerrank.com/challenges/making-anagrams/problem
 
 1. The Full Counting Sort - https://www.hackerrank.com/challenges/countingsort4/problem
 
 1. Devis' Staircase - https://www.hackerrank.com/challenges/ctci-recursive-staircase/problem
 
-Problemen ska lösas i Java eller C#. Lösningarna ska
+Problemen ska lösas i Java eller C#. Lösningarna ska skickas in för körning i Hacker Rank. _Det räcker inte med 
+att bara köra default-fallet._
+
+I varje delmoment ska en .java eller .cs fil läggas till i respektive undermapp. I _Making Anagram_ och _Devis' Staicase_
+finns även ett par extra testfall som normalt är fallgropar.
 
 Bonus: Lös något av problemen i ett annat språk än Java och C#.
 
@@ -27,7 +44,6 @@ Din uppgift är att genomföra en Code Review och ge feedback på koden. Vad sku
 Din andra uppgift är att impementera en egen Stack. Du hittar interfacet som ska implementeras i [del2/Stack.java].
 
 
-Lösningarna på del 1 och 2 görs genom att göra en Fork på det här repot och spara dina lösningar under rätt Solution. När du är klar, skapar du en Merge Request till oss i vårt repo.
 
 ## Del 3 - Programmeringsuppgift
 
@@ -43,5 +59,4 @@ Det finns ett antal lösningar på den här uppgiften på att hitta på GitHub m
 Vår förväntning är att du skriver kod som du själv skulle vilja läsa och förvalta.
 
 
-### Testning av merge request
 

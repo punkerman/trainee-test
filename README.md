@@ -9,6 +9,8 @@ I samtliga fall ska uppgifterna lösas i en egen [Fork av original-repot](https:
 
 Gör minst en commit per löst deluppgift, alltså 3+ stycken för Algoritm-delen och 2+ för Kodgranskningen.
 
+Koden ska skrivas på ett sådant sätt att du själv skulle känna dig okej att förvalta den. (Gäller speciellt del 3)
+
 När du är klar, skapar du en [Pull Request](https://help.github.com/articles/creating-a-pull-request/) till oss i vårt repo. 
 Det finns en Pull Request Template som ska användas.
 
@@ -41,13 +43,16 @@ En yngre kollega kommer till dig med sin implementation av en Stack som du hitta
 
 Din uppgift är att genomföra en Code Review och ge feedback på koden. Vad skulle du ge för råd till din kollega att göra och varför?
 
-Din andra uppgift är att impementera en egen Stack. Du hittar interfacet som ska implementeras i [del2/Stack.java].
+Din andra uppgift är att implementera en egen [Stack](https://sv.wikipedia.org/wiki/Stack_(datastruktur)). 
+Du hittar interfacet som ska implementeras i [del2/src/Stack.java]
+(eller .cs).
 
 
 
 ## Del 3 - Programmeringsuppgift
 
-Den här delen är lite större än de första två. Den går ut på att du ska implementera ett hiss-simuleringssystem. Uppgiften, tillsammans med en djupare beskrivning och ett par hjälpklasser hittar du på:
+Den här delen är lite större än de första två. Den går ut på att du ska implementera ett hiss-simuleringssystem. 
+Uppgiften, tillsammans med en djupare beskrivning och ett par hjälpklasser hittar du på:
 
 - Java: https://github.com/OneAgencySE/elevators
 - C#: 

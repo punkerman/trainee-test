@@ -13,6 +13,13 @@ public interface Stack<T> {
      */
     T pop();
 
+
+    /**
+     * Returns the element on the top of the stack, but does not remove it.
+     * @return The topmost element of the stack.
+     */
+    T peek();
+
     /**
      * Checks if the item is on the stack.
      * @param item The item to search for.
@@ -29,7 +36,7 @@ public interface Stack<T> {
     T access(T item) throws IllegalArgumentException;
 
     /**
-     * Checks if the Stack is empty.
+     * Tests if this stack is empty. Returns true if the stack is empty, and returns false if the stack contains elements.
      * @return True if it is empty.
      */
     boolean isEmpty();

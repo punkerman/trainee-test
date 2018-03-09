@@ -48,3 +48,8 @@ com_crashlytics_export_strings.xml
 crashlytics.properties
 crashlytics-build.properties
 fabric.properties
+/.idea/
+.idea/inspectionProfiles/
+.idea/modules.xml
+.idea/trainee-test-original.iml
+.idea/vcs.xml

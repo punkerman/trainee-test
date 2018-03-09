@@ -32,7 +32,7 @@ __Skapa ett konto där och lös följande uppgifter.__
 Problemen ska lösas i Java eller C#. Lösningarna ska skickas in för körning i Hacker Rank. _Det räcker inte med 
 att bara köra default-fallet._
 
-I varje delmoment ska en .java eller .cs fil läggas till i respektive undermapp. I _Making Anagram_ och _Devis' Staicase_
+I varje delmoment ska en Solution.java eller Solution.cs fil läggas till i respektive undermapp. I _Making Anagram_ och _Devis' Staicase_
 finns även ett par extra testfall som normalt är fallgropar.
 
 Bonus: Lös något av problemen i ett annat språk än Java och C#.
@@ -44,9 +44,11 @@ En yngre kollega kommer till dig med sin implementation av en Stack som du hitta
 Din uppgift är att genomföra en Code Review och ge feedback på koden. Vad skulle du ge för råd till din kollega att göra och varför?
 
 Din andra uppgift är att implementera en egen [Stack](https://sv.wikipedia.org/wiki/Stack_(datastruktur)). 
-Du hittar interfacet som ska implementeras i [del2/src/Stack.java]
-(eller .cs).
 
+Du hittar interfacet som ska implementeras i [del2/src/Stack.java]
+(eller .cs). Lösningen görs i [del2/src/BasicStack.java].
+
+Stacken ska kunna hantera alla typer av objekt men bara en typ i taget.
 
 
 ## Del 3 - Programmeringsuppgift

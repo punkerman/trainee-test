@@ -59,7 +59,7 @@ Uppgiften, tillsammans med en djupare beskrivning och ett par hjälpklasser hitt
 - Java: https://github.com/OneAgencySE/elevators
 - C#: https://github.com/OneAgencySE/elevatorsnet
 
-Gör en egen Fork av den och dela med dig av den till oss. Gör den helst privat, eftersom det är flera som gör den här uppgiften och det inte är ett grupparbete.
+Gör en egen Fork av den och dela med dig av den till oss. Gör den helst privat, eftersom det är flera som gör den här uppgiften och det inte är ett grupparbete. (Förtydligande: Del 3 görs i det andra repot och ska inte ingå i den första Pull Requesten)
 
 Det finns ett antal lösningar på den här uppgiften på att hitta på GitHub men anta att om ni hittar den, så har vi hittat den. ;)
 
